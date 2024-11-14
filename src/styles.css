@@ -1,0 +1,74 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+    background-color: #0F0811;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px; 
+}
+
+.navbar img {
+    width: 60px;
+    margin-right: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly; 
+    width:100%; 
+}
+
+.navbar li {
+    margin: 0 15px; 
+}
+
+.navbar a {
+    display: block;
+    padding: 14px 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #DCF0FB;
+    color: #0F0811;
+}
+
+.navbar a:active {
+    background-color: red;
+}
+
+
+header h1 {
+    text-align: center;
+    font-size: 60px;
+    margin: 30px;
+    padding: 25px;
+  }
+
+  header h2 {
+    text-align: center;
+    font-size: 40px;
+  }
+
+
+  header {
+    max-width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url("../images/watching-tv.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+  
+    color: white;
+    text-align: center;
+    height: 600px; 
+  }
