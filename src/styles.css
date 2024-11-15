@@ -1,0 +1,283 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.text-center {
+    text-align: center;
+  }
+
+  .container {
+    max-width: 1020px;
+    margin: 0 auto;
+    background: linear-gradient(rgba(31, 56, 86), rgba(31, 56, 86));  }
+
+.navbar {
+    background-color: #0F0811;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px; 
+    font-size: 20px;
+}
+
+.navbar img {
+    width: 80px;
+    
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly; 
+    width:100%; 
+}
+
+.navbar li {
+    margin: 0 15px; 
+}
+
+.navbar a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s;
+  
+}
+
+.navbar a:hover {
+    background-color: #DCF0FB;
+    color: #0F0811;
+    border-radius: 15px;
+}
+
+.navbar a:active {
+    background-color: red;
+}
+
+
+header h1 {
+    text-align: center;
+    font-size: 60px;
+    margin: 80px;
+    padding: 25px;
+;
+  }
+
+  header h2 {
+    text-align: center;
+    font-size: 50px;
+  }
+
+
+  header {
+    max-width: 100%;
+    background-image: linear-gradient(rgba(6, 76, 121, 0.2), rgba(6, 76, 121, 0.2)),
+      url("../images/watching-tv.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    color: white;
+    text-align: center;
+    height: 600px; 
+  }
+
+  .grid{
+    display: grid;
+    grid-gap: 34px;
+
+  }
+
+  .grid-3-columns {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.img-responsive {
+    width: 100%;
+    display: block;
+  }
+  .card {
+    background: white;
+     margin:20px 0;
+    text-align: center;
+    
+  }
+
+
+  .card  iframe {
+   width: 100%;
+   background: linear-gradient(rgba(31, 56, 86), rgba(31, 56, 86))  
+
+  }
+ 
+  strong {
+    display: inline-block; 
+    margin-top: 10px;  
+}
+ 
+  .card-header.grid {
+    grid-gap: 0;
+  }
+ 
+ 
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .card-footer {
+    padding: 0 30px 30px;
+  }
+  
+  .btn {
+    display: block;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 3px;
+    border-radius: 15px;
+    padding: 16px;
+    background-color: black;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #1f3856;
+    color: white;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+  
+}
+
+
+  .secondary h1 {
+font-size: 40px;
+color:white
+  }
+  
+  section {
+    max-width: 1000px;
+    margin: 0 auto;
+
+  }
+  section.secondary {
+   
+  
+    margin: 0 auto;
+  }
+  
+
+
+
+  
+
+  main h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+    color: #272044;
+    margin: 0;
+    text-align: center;
+  }
+  
+  main p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #272044;
+    opacity: 0.7;
+    text-align: center;
+
+  }
+
+
+  .grid-footer {
+
+    grid-template-columns: 1fr 1fr;
+   
+  }
+  
+   footer {
+    color: white;
+    background-image: linear-gradient(
+        rgba(6, 76, 121, 0.9),
+        rgba(39, 32, 68, 0.9)
+      ),
+      url("../images/Footer-photo.png");
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    padding: 30px ;
+     grid-gap: 64px;
+     text-align: center;
+   
+  }
+  
+  footer h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  
+  footer p {
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.7;
+    line-height: 24px;
+  }
+  
+  footer ul {
+    padding: 0;
+  }
+  
+  footer li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer a {
+    color: white;
+    opacity: 0.7;
+  }
+  
+  @media (max-width: 960px) {
+    header {
+      padding: 60px 0;
+    }
+  
+    header h1 {
+      font-size: 48px;
+    }
+  
+    header h2 {
+      font-size: 25px;
+    }
+  
+    header h3 {
+      font-size: 12px;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+        grid-gap: 32px;
+      }
+    
+      section {
+        padding: 30px;
+      }
+
+      .card-header img {
+        display: none;
+      }
+    
+      
+  }
+
+
