@@ -12,12 +12,20 @@ body {
     background: linear-gradient(rgba(31, 56, 86), rgba(31, 56, 86));  }
 
 .navbar {
-    background-color: #0F0811;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    padding: 10px 20px; 
-    font-size: 20px;
+
+  background-color: #0F0811; /* Cor de fundo */
+  overflow: hidden;          /* Garante que os itens não saiam da barra */
+  display: flex;             /* Flexbox para alinhamento dos itens */
+  align-items: center;       /* Alinha os itens verticalmente */
+  padding: 10px 20px;        /* Padding da barra */
+  font-size: 20px;           /* Tamanho da fonte */
+  position: fixed;           /* Fixa a barra no topo */
+  top: 0;                    /* Alinha no topo */
+  left: 50%;                 /* Move para o meio da tela */
+  transform: translateX(-50%); /* Ajusta para que fique centralizado */
+  width: 46%;                /* A largura será 50% da tela */
+  max-width: 1020px;         /* Largura máxima do conteúdo */
+  z-index: 1000; 
 }
 
 .navbar img {
@@ -192,7 +200,8 @@ color:white
     line-height: 1.5;
     color: #272044;
     opacity: 0.7;
-    text-align: center;
+  
+    text-align: justify;
 
   }
 
@@ -216,7 +225,7 @@ color:white
     background-position:center;
     padding: 30px ;
      grid-gap: 64px;
-     text-align: center;
+     text-align: justify;
    
   }
   
